@@ -1,0 +1,41 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+
+#3rd party files from other locations
+3rdParty/
+
+#ignore IDE/build items
+.project
+.vscode/
+.settings
+.settings/*
+.classpath
+.gradle
+.antlr
+gradle.properties
+**/build/
+**/bin/
+
+#ignore all of the standard output, temp, etc files.
+*.swp
+*.o
+*.ar
+*.a
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.jar
+**/*.class
+
+#ignore Arduino build / verify files and dirs
+ArduinoOutput/
+**/profile.out
+**/trace.out
+
+# 3D Print - local files
+*.gx
+
+# Generated sources from Antlr
+applibs/rollGrammar/src/main/antlr/.antlr
+applibs/rollGrammar/src/generated/*
