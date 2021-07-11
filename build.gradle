@@ -23,11 +23,11 @@ dependencies {
 
 gradlePlugin {
     plugins {
-        arduinoPlugin {
+        aardephant {
             version = '0.1.0-SNAPSHOT'
             group = 'com.sweetteasoftware.arduino'
-            id = 'arduinoPlugin'
-            implementationClass = 'com.sweetteasoftware.arduino.ArduinoPlugin'
+            id = 'aardephant'
+            implementationClass = 'com.sweetteasoftware.arduino.aardephant'
         }
     }
 }
