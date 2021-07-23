@@ -2,7 +2,7 @@
 .gradle
 gradlew
 gradlew.bat
-gradle-wrapper.properties
+*/gradle-wrapper.properties
 
 #3rd party files from other locations
 3rdParty/
