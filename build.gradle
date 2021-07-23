@@ -27,7 +27,7 @@ gradlePlugin {
             version = '0.1.0-SNAPSHOT'
             group = 'com.sweetteasoftware.arduino'
             id = 'aardephant'
-            implementationClass = 'com.sweetteasoftware.arduino.aardephant'
+            implementationClass = 'com.sweetteasoftware.arduino.ArduinoPlugin'
         }
     }
 }
