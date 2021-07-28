@@ -14,6 +14,7 @@ _Information on the different settings._
 ## Getting Started - Development
 
 1. Requires java 10+
+1. The [Arduino IDE](https://www.arduino.cc/en/software) (minimum version 1.8)
 1. Edit /home/user/.m2/settings.xml .. add localRepository (/home/user/.m2/repository)
 1. gradle wrapper
 1. ./gradlew publish
